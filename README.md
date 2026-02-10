@@ -4,3 +4,4 @@ Pour compiler ce projet acceder tout d'abord au repertoire qui contient votre pr
 Pour compile entierement le projet taper la commande javac src\model\*.java src\repository\*.java src\service\*.java src\controller\*.java Main.java -->
 
 Pour exécuter taper java -cp src;. Main 
+fait par SIMO NUEFELIE ANGE LUCRECE etudiante IDA 

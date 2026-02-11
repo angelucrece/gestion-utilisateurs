@@ -60,10 +60,15 @@ import controller.UserController;
 import model.User;
 import repository.UserRepositoryImpl;
 import service.UserServiceImpl;
-
+/**Classe principale main pour lancer l'application de gestion des utilisateurs */
 public class Main {
 
-    /**Classe principale main pour lancer l'application de gestion des utilisateurs */
+    
+   /** Méthode principale du programme.
+    *
+    * @param args arguments de la ligne de commande
+    */
+    
     public static void main(String[] args) {
         UserController userController = new UserController(new UserServiceImpl(new UserRepositoryImpl()));
 

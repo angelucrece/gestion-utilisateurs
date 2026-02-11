@@ -4,3 +4,6 @@
 <!--Pour compile entierement le projet taper la commande javac src\model\*.java src\repository\*.java src\service\*.java src\controller\*.java Main.java -->
 
 <!-- Pour exécuter taper java -cp src;. Main -->
+
+commande pour generer la documentation du projet
+javadoc -d docs -encoding UTF-8 -charset UTF-8 -sourcepath src controller model repository service Main.java

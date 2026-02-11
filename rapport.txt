@@ -1,0 +1,40 @@
+
+RAPPORT TECHNIQUE  
+Projet : Application de Gestion des Utilisateurs
+
+1. Introduction
+
+Ce projet a pour objectif de développer une application permettant la gestion des utilisateurs via les opérations CRUD (Create, Read, Delete). Deux versions ont été développées afin de comparer une approche Java classique et une approche moderne basée sur Spring Boot.
+
+2. Version 1 – Application Java Console
+
+Choix techniques
+- Architecture MVC (Model, Repository, Service, Controller)
+- Séparation des responsabilités
+- Utilisation d’interfaces
+- Stockage des données en mémoire
+
+Difficultés rencontrées
+- Implémentation manuelle des méthodes CRUD
+- Gestion des exceptions
+- Organisation correcte des packages
+
+
+3. Version 2 – Application Spring Boot
+
+ Choix techniques
+- Utilisation de Spring Boot pour simplifier la configuration
+- Spring Data JPA pour automatiser les opérations CRUD
+- Intégration avec MySQL
+- Architecture REST
+
+Difficultés rencontrées
+- Problèmes de dépendances Jakarta Persistence
+- Erreurs HTTP (404, 415)
+- Mauvaise configuration du Content-Type dans Postman
+- Configuration de la connexion MySQL
+
+4. Conclusion
+
+La version Spring Boot est plus adaptée pour une application professionnelle. Elle simplifie le développement, réduit la quantité de code et facilite l’intégration avec une base de données.
+
